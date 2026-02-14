@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DineSphere - Aunthectic Indian Restaurant serving fresh dish  ">
+    <title>
+        DineSphere Restaurant - Aunthectic Indian Cuisine
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="loader">
+  <h2>DineSphere</h2>
+</div>
+
+   <header class="header">
+    <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <h1>DineSphere</h1>
+                <span class="tagline">Authentic Indian Cuisine</span>
+                <div class="hamburger" onclick="toggleMenu()">
+☰
+</div>
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+
+       <section id="home" class="hero">
+           <div class="hero-content">
+
+               <h2>Welcome to DineSphere</h2>
+               <p>Experience the rich flavors of authentic Indian cuisine in a warm and inviting atmosphere. Our chefs use traditional recipes and fresh ingredients to create dishes that will tantalize your taste buds.</p>
+               <div class="hero-buttons">
+               <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+               <a href="#contact" class="btn btn-secondary">Make a Reservation</a>
+                    </div>
+            </div>
+       </section>
+       <section id="menu" class="menu">
+           
+           <div class="container">
+           <h2 class="section-title">Our Menu</h2>
+           <p class="section-subtitle">
+            Discover our diverse menu featuring a wide range of authentic Indian dishes, from flavorful curries to delicious tandoori specialties. Each dish is crafted with care and passion to bring you the true taste of India.
+           </p>
+           <div class="menu-categories">
+            <div class="menu-category">
+                <h3>Appetizers</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Shahi Paneer Tikka</h4>
+                            <p>Rich and creamy paneer tikka with a rich gravy, yogurt and royal spices.</p>
+                        </div>
+                        <span class="price">₹169</span>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Malai Chicken Tikka</h4>
+                            <p>Delicious chicken tikka marinated in yogurt and spices, cooked to perfection.</p>
+                        </div>
+                        <span class="price">₹199</span>
+                    </div>
+                   
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Crispy Corn Royale</h4>
+                            <p>Crispy corn with a royal spice blend, served with a creamy sauce.</p>
+                        </div>
+                        <span class="price">₹149</span>
+                    </div>
+                   
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Golden Prawns Tempura</h4>
+                            <p>Golden prawns in a crispy tempura coating, served with a tangy sauce.</p>
+                        </div>
+                        <span class="price">₹249</span>
+                    </div>
+
+                </div>
+                <div class="Main Course">
+                    <h3>Main Course</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Maharaja Butter Chicken</h4>
+                                <p>Rich and creamy butter chicken cooked with a blend of aromatic spices.</p>
+                            </div>
+                            <span class="price">₹299</span>
+
+                        </div>
+                         <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Paneer Labbabdar</h4>
+                                <p>Rich and creamy paneer cooked in a rich, spiced tomato-based sauce.</p>
+                            </div>
+                            <span class="price">₹249</span>
+
+                        </div>
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Dal Makhani</h4>
+                                    <p>Slow-cooked black lentils in a creamy tomato sauce, seasoned with spices.</p>
+                                </div>
+                                <span class="price">₹199</span>
+                    </div>
+                           <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Rogan Josh</h4>
+                                    <p>Fragrant lamb curry cooked with a blend of spices and yogurt.</p>
+                                </div>
+                                <span class="price">₹349</span>
+                </div>
+            </div>
+            
+           </div>
+           <div class="menu-categories">
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Gulab Jamun</h4>
+                            <p>Soft and sweet dumplings soaked in rose-flavored syrup.</p>
+                        </div>
+                        <span class="price">₹99</span>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Kheer</h4>
+                            <p>Creamy rice pudding flavored with cardamom and garnished with nuts.</p>
+                        </div>
+                        <span class="price">₹129</span>
+                    </div>
+                   
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Ras Malai</h4>
+                            <p>Soft cheese dumplings soaked in sweetened milk, flavored with saffron.</p>
+                        </div>
+                        <span class="price">₹149</span>
+                    </div>
+                   
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Jalebi</h4>
+                            <p>Crispy and sweet spirals soaked in sugar syrup, a popular Indian dessert.</p>
+                        </div>
+                        <span class="price">₹79</span>
+                    </div>
+           </div>
+           <div class="Continental & Italian">
+            <h3>Continental & Italian</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Margherita Pizza</h4>
+                        <p>Classic pizza with fresh tomatoes, mozzarella cheese, and basil.</p>
+                    </div>
+                    <span class="price">₹199</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Spaghetti Carbonara</h4>
+                        <p>Traditional Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                    </div>
+                    <span class="price">₹249</span>
+                </div>
+               
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Grilled Chicken Caesar Salad</h4>
+                        <p>Crisp romaine lettuce topped with grilled chicken, croutons, and Caesar dressing.</p>
+                    </div>
+                    <span class="price">₹179</span>
+                </div>
+               
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Vegetable Lasagna</h4>
+                        <p>Layers of pasta, vegetables, and cheese baked to perfection.</p>
+                    </div>
+                    <span class="price">₹229</span>
+                </div>
+           </div>
+           <div class="Moctails & Beverages">
+            <h3>Moctails & Beverages</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Mango Lassi</h4>
+                        <p>Refreshing yogurt-based drink blended with ripe mangoes and a hint of cardamom.</p>
+                    </div>
+                    <span class="price">₹99</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Masala Chai</h4>
+                        <p>Aromatic spiced tea made with black tea, milk, and a blend of Indian spices.</p>
+                    </div>
+                    <span class="price">₹49</span>
+                </div>
+               
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Virgin Mojito</h4>
+                        <p>A refreshing mocktail made with fresh mint, lime juice, sugar, and soda water.</p>
+                    </div>
+                    <span class="price">₹129</span>
+                </div>
+               
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h4>Rose Lemonade</h4>
+                        <p>A delightful blend of rose syrup, fresh lemon juice, and sparkling water.</p>
+                    </div>
+                    <span class="price">₹109</span>
+           </div>
+           </div>
+            </div>
+         </section>
+
+        <section id="about" class="about">
+    
+        <div class="container">
+
+  <h2 class="section-title">About DineSphere</h2>
+
+      <div class="about-content">
+
+         <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1000&q=80">
+   </div>
+
+          <div class="about-text glass">
+           <h3>Our Story</h3>
+           <p>
+            DineSphere brings authentic Indian flavors to life through traditional recipes and hand-picked ingredients. Our journey began with passion and love for food.
+           </p>
+
+           
+             <h3>Our Commitment</h3>
+            <p>
+             From warm hospitality to unforgettable dishes, we create moments you’ll cherish. Every plate tells a story of culture, care, and craftsmanship.
+            </p>
+        </div>
+
+    </div>
+    
+
+ </div>
+</section>
+
+  
+    <section id="contact" class="contact">
+        
+               <div class="container">
+
+                <h2 class="section-title">Contact Us</h2>
+
+                <div class="contact-content">
+
+                <div class="contact-info glass">
+                 <h3>Get in Touch</h3>
+
+                <p>📍 123 Food Street, Flavor Town, India</p>
+                <p>📞 +91 98765 43210</p>
+                <p>✉ info@dinesphere.com</p>
+
+                <p style="margin-top:1rem;color:rgba(255,255,255,.9)">
+
+                  We’d love to hear from you. Book a table or just say hello!
+                </p>
+                 </div>
+
+                     <div class="contact-form glass">
+                     <h3>Make a Reservation</h3>
+
+                    <form>
+                      <input type="text" placeholder="Full Name" required>
+                      <input type="email" placeholder="Email Address" required>
+                      <input type="tel" placeholder="Phone Number" required>
+
+                         <div class="row">
+                         <input type="date" required>
+                          <input type="time" required>
+                         </div>
+
+                 <input type="number" placeholder="Guests" min="1" required>
+
+                  <button class="btn btn-primary">Submit Reservation</button>
+    </form>
+   </div>
+
+  </div>
+
+ </div>
+</section>
+          <div class="footer-wave">
+            
+
+
+             <footer class="footer">
+  <div class="container">
+
+    <div class="footer-content">
+
+      <div class="footer-section">
+        <h3>DineSphere</h3>
+        <p>
+          Experience the true taste of India with us. From our kitchen to your table, we bring you authentic flavors and unforgettable moments.
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Opening Hours</h4>
+        <p>Mon - Fri: 10:00 AM - 10:00 PM</p>
+        <p>Sat - Sun: 11:00 AM - 11:00 PM</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 DineSphere. All rights reserved.</p>
+      <a href="#home" class="back-to-top">↑ Back to Top</a>
+    </div>
+
+  </div>
+  </div>
+</footer>
+
+        
+         
+           <script>
+function toggleMenu(){
+ const menu = document.querySelector(".nav-links");
+ menu.classList.toggle("active");
+}
+
+/* Close menu after clicking link */
+
+document.querySelectorAll(".nav-links a").forEach(link=>{
+ link.addEventListener("click",()=>{
+  document.querySelector(".nav-links").classList.remove("active");
+ });
+});
+</script>
+
+<script>
+const items=document.querySelectorAll('.menu-item');
+
+window.addEventListener('scroll',()=>{
+ items.forEach(i=>{
+  const pos=i.getBoundingClientRect().top;
+  if(pos<window.innerHeight-100){
+   i.classList.add('show');
+  }
+ });
+});
+</script>
+          <script>
+const revealElements = document.querySelectorAll(
+  ".menu-item, .about, .contact, .footer"
+);
+
+function revealOnScroll(){
+ revealElements.forEach(el=>{
+  const pos = el.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  if(pos < windowHeight - 120){
+   el.classList.add("show");
+  } else {
+   el.classList.remove("show");
+  }
+ });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
+</script>
+
+
+      <script>
+window.addEventListener("load",()=>{
+ document.getElementById("loader").classList.add("hide");
+});
+</script>
+   
+
+<script>
+if(window.innerWidth > 768){
+
+ window.addEventListener("scroll",()=>{
+  const hero = document.querySelector(".hero");
+  const scrolled = window.pageYOffset;
+  hero.style.backgroundPositionY = scrolled * 0.3 + "px";
+ });
+
+}
+</script>
+
+ 
+ 
+<script>
+const revealItems = document.querySelectorAll(".menu-item, .menu-category, .about, .contact");
+
+
+function reveal(){
+
+ revealItems.forEach((el,index)=>{
+  const top = el.getBoundingClientRect().top;
+
+  if(top < window.innerHeight - 120){
+
+   // stagger ONLY menu items
+   if(el.classList.contains("menu-item")){
+    el.style.transitionDelay = `${index * 0.10}s`;
+   }
+
+   el.classList.add("show");
+
+  }else{
+   el.classList.remove("show");
+   el.style.transitionDelay = "0s";
+  }
+
+ });
+
+}
+
+window.addEventListener("scroll", reveal);
+reveal();
+</script>
+
+
+ <script>
+
+
+  const rect = section.getBoundingClientRect();
+  const speed = 0.25;   // depth strength
+
+  const offset = rect.top * speed;
+  bg.style.transform = `translateY(${offset}px)`;
+ 
+
+
+window.addEventListener("scroll", sectionParallax);
+sectionParallax();
+</script>
+<script>
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector(".nav-links");
+
+function toggleMenu(){
+ menu.classList.toggle("active");
+}
+
+/* Close when clicking outside */
+document.addEventListener("click", function(e){
+
+ if(
+   !menu.contains(e.target) && 
+   !hamburger.contains(e.target)
+ ){
+   menu.classList.remove("active");
+ }
+
+});
+
+/* Close when clicking link */
+document.querySelectorAll(".nav-links a").forEach(link=>{
+ link.addEventListener("click", ()=>{
+   menu.classList.remove("active");
+ });
+});
+</script>
+
+
+
+
+ 
+
+
+
+
+   </main>
+</html>
